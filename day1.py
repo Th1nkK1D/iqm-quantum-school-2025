@@ -1,4 +1,5 @@
 # Quantum School: Day 1 - Lab
+# Original notebook - https://colab.research.google.com/drive/1gycBa4T-RHfBBJlu6XBICR3SWIoA9BpD
 
 # %%
 from qrisp import QuantumVariable, cx, h, x
@@ -49,6 +50,7 @@ cx(ghz[1], ghz[2])
 
 print(ghz.qs)
 ghz.get_measurement()
+
 # %%
 # Simulate the modified circuit on the qrisp simulator.
 
