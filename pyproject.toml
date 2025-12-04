@@ -8,8 +8,15 @@ dependencies = [
     "dimod>=0.12.21",
     "ipykernel>=7.1.0",
     "ipywidgets>=8.1.8",
-    "iqm-client>=32.1.1,<33.0",
+    # "iqm-client>=32.1.1,<33.0", # Lab 1, 2
+    "iqm-client[qiskit]>=32.1.1", # Lab 3
+    "iqm-pulla==11.16.2",
+    "iqm-pulse==12.6.1",
     "iqm-qaoa>=1.38.1",
+    "iqm-station-control-client==11.3.1",
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.5",
+    "pylatexenc>=2.10",
     "qrisp[iqm]>=0.7.14",
     "toolz>=1.1.0",
 ]
